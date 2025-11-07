@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title> Menu - The White Lotus </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <img src = "/images/logo.png" id="logo" width="50px" height="50px" alt="logo"></td>
+        <h1> The White Lotus </h1>
+        
+        <div id="navbar">
+            <nav>
+                <ul> <a href="/home.html"> Home </a></ul> 
+                <ul> <a href="/menu.html"> Menu </a></ul>
+                <ul> <a href="/menu.html#contact"> Contact </a></ul>
+            </nav>
+        </div>
+        
+        <!-- Menu table with header, rows and table data -->
+        <h2> Menu </h2>
+        
+            <table> 
+                <thead>
+                    <tr>  
+                        <th> Menu Item </th>
+                        <th> Cost </th>
+                        <th> Image </th>
+                    </tr> 
+                </thead>
+
+                <tbody>
+                    <tr class="tblRow">  
+                        <td> Vegetarian Samosas 
+                            <p> Four vegetarian and gluten free samosas, served with ambli meethi chutney.</p>
+                        </td>
+                        <td> $6.99 </td>
+                        <td>  <img src = "/images/samosa.jpg" class="images" width="100px" height="100px" alt="samosa"></td>
+                    </tr class="tblRow">
+                    <tr>
+                        <td> Tofu Butter Masala 
+                            <p> The tofu butter masala is a fully vegan dish that is served with a side of rice and naan. *This dish can be made without onion or garlic upon request.*</p>
+                        </td>
+                        <td> $21.99 </td>
+                         <td>  <img src = "/images/tofu.jpg" class="images" width="100px" height="100px" alt="tofu butter masala"></td>
+                    </tr class="tblRow">
+                    <tr>
+                        <td> Masala Chai
+                            <p>Masala chai is a popular Indian beverage made from a blend of black tea, milk, sugar, and a mixture of aromatic spices. *Can be made with soy milk.*</p>
+                        </td>
+                        <td> $2.99 </td>
+                         <td>  <img src = "/images/chai.jpg" class="images" width="100px" height="100px" alt="masala chai"></td>
+                    </tr>
+                </tbody>
+            </table>
+         
+        <!-- Contact form -->
+        <div id="contact">
+            <h2> Contact Us </h2>
+            <form>
+                <label for = "name"> Name </label>
+                <input type="text" placeholder="Enter your name"/>
+                <br /> 
+
+                <label for = "email"> Email </label> 
+                <input type ="email" placeholder=" Enter your email"/>
+                <br/>
+
+                <label for = "message"> Message </label>
+                <input type ="message" placeholder="Enter your message here"/>
+                <br/>
+                
+                <button id = "btn" > Submit </button>
+            </form>
+        </div>
+
+        <footer>
+            <p>&copy; <a href="/home.html">The White Lotus </a>. All Rights Reserved.</p>
+        </footer>
+      
+    </body>
+</html>
